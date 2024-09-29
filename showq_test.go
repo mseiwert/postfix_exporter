@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/kumina/postfix_exporter/mock"
-	"github.com/stretchr/testify/assert"
 	"os"
 	"testing"
+
+	"github.com/mseiwert/postfix_exporter/mock"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestCollectShowqFromReader(t *testing.T) {
